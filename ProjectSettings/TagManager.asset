@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlayerPoint
+  - EnemyPoint
+  - ZonePoint
+  - EnemyUnit
+  - PlayerUnit
   layers:
   - Default
   - TransparentFX
@@ -40,4 +45,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Board
+    uniqueID: 2525004509
+    locked: 0
+  - name: Active
+    uniqueID: 1733491871
     locked: 0
